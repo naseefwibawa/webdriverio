@@ -1,0 +1,84 @@
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.10.1 (automationName 'UiAutomator2')
+[35m[Appium][39m   - xcuitest@4.12.1 (automationName 'XCUITest')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true}}[39m
+[debug] [35m[AppiumDriver@8051][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@8051][39m Event 'newSessionRequested' logged at 1667239669500 (01:07:49 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium-uiautomator2-driver
+[debug] [35m[AppiumDriver@8051][39m Event 'newSessionStarted' logged at 1667239669505 (01:07:49 GMT+0700 (Western Indonesia Time))
+[debug] [35m[AppiumDriver@8051][39m Encountered internal error running command: Error: Could not find a driver for automationName 'UIAutomator2' and platformName Android'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find a driver installed at C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium-uiautomator2-driver)
+[debug] [35m[AppiumDriver@8051][39m     at DriverConfig.findMatchingDriver (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\extension\driver-config.js:175:13)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.createSession (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:263:29)
+[debug] [35m[AppiumDriver@8051][39m     at commandExecutor (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\basedriver\driver.js:126:9)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\basedriver\driver.js:143:15)
+[debug] [35m[AppiumDriver@8051][39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [35m[AppiumDriver@8051][39m     at defaultBehavior (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:668:16)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeWrappedCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:762:16)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:684:17)
+[debug] [35m[AppiumDriver@8051][39m     at asyncHandler (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\protocol\protocol.js:346:19)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m33 ms - 1255[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true}}[39m
+[debug] [35m[AppiumDriver@8051][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@8051][39m Event 'newSessionRequested' logged at 1667239669541 (01:07:49 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium-uiautomator2-driver
+[debug] [35m[AppiumDriver@8051][39m Event 'newSessionStarted' logged at 1667239669543 (01:07:49 GMT+0700 (Western Indonesia Time))
+[debug] [35m[AppiumDriver@8051][39m Encountered internal error running command: Error: Could not find a driver for automationName 'UIAutomator2' and platformName Android'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find a driver installed at C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium-uiautomator2-driver)
+[debug] [35m[AppiumDriver@8051][39m     at DriverConfig.findMatchingDriver (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\extension\driver-config.js:175:13)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.createSession (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:263:29)
+[debug] [35m[AppiumDriver@8051][39m     at commandExecutor (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\basedriver\driver.js:126:9)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\basedriver\driver.js:143:15)
+[debug] [35m[AppiumDriver@8051][39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [35m[AppiumDriver@8051][39m     at defaultBehavior (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:668:16)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeWrappedCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:762:16)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:684:17)
+[debug] [35m[AppiumDriver@8051][39m     at asyncHandler (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\protocol\protocol.js:346:19)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m5 ms - 1255[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true}}[39m
+[debug] [35m[AppiumDriver@8051][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@8051][39m Event 'newSessionRequested' logged at 1667239669551 (01:07:49 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium-uiautomator2-driver
+[debug] [35m[AppiumDriver@8051][39m Event 'newSessionStarted' logged at 1667239669554 (01:07:49 GMT+0700 (Western Indonesia Time))
+[debug] [35m[AppiumDriver@8051][39m Encountered internal error running command: Error: Could not find a driver for automationName 'UIAutomator2' and platformName Android'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find a driver installed at C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium-uiautomator2-driver)
+[debug] [35m[AppiumDriver@8051][39m     at DriverConfig.findMatchingDriver (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\extension\driver-config.js:175:13)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.createSession (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:263:29)
+[debug] [35m[AppiumDriver@8051][39m     at commandExecutor (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\basedriver\driver.js:126:9)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\basedriver\driver.js:143:15)
+[debug] [35m[AppiumDriver@8051][39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [35m[AppiumDriver@8051][39m     at defaultBehavior (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:668:16)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeWrappedCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:762:16)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:684:17)
+[debug] [35m[AppiumDriver@8051][39m     at asyncHandler (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\protocol\protocol.js:346:19)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m5 ms - 1255[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true}}[39m
+[debug] [35m[AppiumDriver@8051][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel 5","appium:automationName":"UIAutomator2","appium:app":"C:\\Users\\nasee\\OneDrive\\Desktop\\gitRepo\\webdriverio\\app\\android\\ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@8051][39m Event 'newSessionRequested' logged at 1667239669562 (01:07:49 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium-uiautomator2-driver
+[debug] [35m[AppiumDriver@8051][39m Event 'newSessionStarted' logged at 1667239669564 (01:07:49 GMT+0700 (Western Indonesia Time))
+[debug] [35m[AppiumDriver@8051][39m Encountered internal error running command: Error: Could not find a driver for automationName 'UIAutomator2' and platformName Android'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find a driver installed at C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium-uiautomator2-driver)
+[debug] [35m[AppiumDriver@8051][39m     at DriverConfig.findMatchingDriver (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\extension\driver-config.js:175:13)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.createSession (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:263:29)
+[debug] [35m[AppiumDriver@8051][39m     at commandExecutor (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\basedriver\driver.js:126:9)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\basedriver\driver.js:143:15)
+[debug] [35m[AppiumDriver@8051][39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [35m[AppiumDriver@8051][39m     at defaultBehavior (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:668:16)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeWrappedCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:762:16)
+[debug] [35m[AppiumDriver@8051][39m     at AppiumDriver.executeCommand (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\appium\lib\appium.js:684:17)
+[debug] [35m[AppiumDriver@8051][39m     at asyncHandler (C:\Users\nasee\OneDrive\Desktop\gitRepo\webdriverio\node_modules\@appium\base-driver\lib\protocol\protocol.js:346:19)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m6 ms - 1255[39m
+[35m[HTTP][39m [90m[39m
