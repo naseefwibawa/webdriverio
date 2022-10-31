@@ -36,7 +36,7 @@ describe('test', () => {
 		)
 	})
 
-	it('delete note', async () => {
+	it('delete the note', async () => {
 		const noteTitle = await addNote.noteTitleField.getText()
 
 		await addNote.menuOptionBtn.click()
