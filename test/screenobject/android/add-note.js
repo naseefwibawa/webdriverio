@@ -77,4 +77,4 @@ class addNote {
 	}
 }
 
-module.exports = new addNote()
+export default new addNote()

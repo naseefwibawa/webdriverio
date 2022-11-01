@@ -24,4 +24,4 @@ class editNoteScreen {
 	}
 }
 
-module.exports = new editNoteScreen()
+export default new editNoteScreen()

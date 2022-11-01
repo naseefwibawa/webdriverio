@@ -4,7 +4,7 @@ const path = require('path')
 // ============
 // Specs
 // ============
-config.specs = ['./test/specs/android/*.js']
+config.specs = ['./test/specs/android/add-check*.js']
 
 // ============
 // Capabilities
@@ -39,8 +39,11 @@ config.services = [
 			args: {
 				address: 'localhost',
 				port: 4723,
+				relaxedSecurity: true,
 			},
 			logPath: './',
 		},
 	],
 ]
+
+exports.config = config
